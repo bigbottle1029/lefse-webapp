@@ -3,6 +3,12 @@
 > Modernized Web-Based Interface for LEfSe Microbial Biomarker Discovery Tool
 
 ---
+
+## 🧬 Overview
+
+**LEfSe Web** 是將經典 LEfSe (Linear Discriminant Analysis Effect Size) 微生物標記發現流程模組化，並搭配 Streamlit Web App 建立使用者友善界面。  
+支援輸入處理、三階段統計分析（Kruskal-Wallis → Wilcoxon → LDA）、barplot 與 cladogram 可視化，並相容原始命令列操作。
+
 ---
 
 ## 🔧 Installation (via Conda)
@@ -14,11 +20,6 @@
 ```bash
 conda create -n lefseweb python=3.8 -y
 conda activate lefseweb
-## 🧬 Overview
-
-LEfSe Web 是將經典 LEfSe (Linear Discriminant Analysis Effect Size) 微生物標記發現流程模組化，並搭配 Streamlit Web App 建立使用者友善界面。支援輸入處理、三階段統計分析（Kruskal-Wallis → Wilcoxon → LDA）、barplot 與 cladogram 可視化，並相容原始命令列操作。
-
----
 
 ## 📁 Project Structure
 
